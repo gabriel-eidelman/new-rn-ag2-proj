@@ -2,6 +2,10 @@
 
 This is a comprehensive template for getting jumpstarted with an integrated full stack environment, with a React Native frontend and a FastAPI/AG2 backend. It's great for creating projects quickly and testing/iterating.
 
+DEMO SPEEDRUN:
+
+https://github.com/user-attachments/assets/4035c9de-e2cc-4baf-b9bd-8db35abad3ce
+
 ## Setup
 First clone the template with a clean commit history by click the 'Use This Template' button and name your project. Next run 
 ```
@@ -29,7 +33,14 @@ First change the PROJECT_NAME variable to match the name of your project. Next f
 ```
 ./create-frontend.sh
 ```
-Finally, f
+
+Next, to start the project on xcode simulator,
+```
+pod install
+npm start
+```
+Then you can build the project in xcode and run it on a simulator!
+
 ## Run
 ```bash
 uvicorn app.main:app --reload
